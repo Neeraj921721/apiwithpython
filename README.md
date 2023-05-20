@@ -14,3 +14,6 @@ pip install 'fastapi[api]'
 
 # use the below command to see what all packakges got installed
 pip freeze
+
+# use uvicorn as server and hit the localhost to see the api response. alternatively put /docs in the url to use ui based interaction
+uvcorn main:app --reload
